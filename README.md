@@ -1,16 +1,16 @@
 # bugBuddy ChatGPT CLI Tool
 
 ## Overview
-Script for interacting with advanced ChatGPT models at a fraction of the cost (for the average user) through OpenAI's API. Designed to assist with debugging, additional code generation, and explanation of code
+Script for interacting with advanced ChatGPT models at a fraction of the cost (for the average user) through OpenAI's API. Designed to assist with debugging, additional code generation, and explanation of code.
 
 ## Get your API Key
 In order for this tool to function, you must get an API key from [platform.openai.com](https://platform.openai.com). You can login, go to your account and select *View API Keys*. Then select *Create new secret key*. You can then copy and paste this key into the config.yaml file (elaborated upon below).
 
 ## Installation
-In order to install the tool, you can type 'pip install git+https://github.com/robertavant/openai-cli-tool
+In order to install the tool, you can type 'pip install git+https://github.com/robertavant/openai-cli-tool into your terminal.
 
 # Usage
-You can use the tool by typing *bugBuddy.py* in your terminal, followed by your prompt. Read below for more explanation of commands
+You can use the tool by typing *bugBuddy.py* in your terminal, followed by your prompt. Read below for more explanation of commands.
 
 ## Order of commands
 Due to the way that the click library parses arguments, the order in which you enter your commands will affect how the AI recieves your prompt. In general it is reccomended to structure your commands in the following way:
@@ -23,7 +23,7 @@ Note that --file and --format are optional arguments, and are not neccessary for
 If you want to have the tool read a file, you can type your prompt, followed by --file *INSERT FILE PATH HERE*. 
 
 ## --format
-The default format that the tool displays is text. This is plain text, colored and displayed on a colored background. However, you can also print out a code block by adding --format code to the end of your prompt. This will tokenize the response and display it as it would be written in an IDE
+The default format that the tool displays is text. This is plain text, colored and displayed on a colored background. However, you can also print out a code block by adding --format code to the end of your prompt. This will tokenize the response and display it as it would be written in an IDE.
 
 # config.yaml File
 This file allows you to adjust the default settings for the tool, including text and background colors, models, as well as the lexer to properly display code blocks for different languages. It also contains a place to input your API key, which is required for the tool to function. 
