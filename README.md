@@ -10,7 +10,7 @@ In order for this tool to function, you must get an API key from [platform.opena
 In order to install the tool, you can type 'pip install git+https://github.com/robertavant/openai-cli-tool
 
 # Usage
-You can use the tool by typing 'bugBuddy.py in your terminal, followed by your prompt. Read below for more explanation of commands
+You can use the tool by typing *bugBuddy.py* in your terminal, followed by your prompt. Read below for more explanation of commands
 
 ## Order of commands
 Due to the way that the click library parses arguments, the order in which you enter your commands will affect how the AI recieves your prompt. In general it is reccomended to structure your commands in the following way:
