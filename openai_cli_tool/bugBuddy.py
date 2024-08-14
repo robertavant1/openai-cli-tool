@@ -3,6 +3,7 @@ import click
 from openai import OpenAI
 from pygments import highlight
 import yaml
+from pathlib import Path
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import TerminalFormatter
 
@@ -52,8 +53,13 @@ def get_token_usage(i_tokens, o_tokens, model):
     total_cost = input_cost + output_cost
     return total_cost
 
-def load_default_settings(config_file: str) -> dict:
-    with open(config_file, encoding="utf-8") as file:
+def load_default_settings(default_config: str) -> dict:
+    if not Path(default_config).exists():
+        os.makedirs(os.path.dirname(default_config), exist_ok=True)
+        with open(default_config, "w", encoding="utf-8") as file:
+            yaml.dump(DEFAULT_SETTINGS, file, default_flow_style=False)
+
+    with open(default_config, encoding="utf-8") as file:
         config = yaml.load(file, Loader=yaml.FullLoader)
     # Update config file with any missing values to ensure proper functionality
     for key, value in DEFAULT_SETTINGS.items():
