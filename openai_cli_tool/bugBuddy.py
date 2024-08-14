@@ -17,7 +17,8 @@ DEFAULT_SETTINGS = {
     # text color settings
     'text-color': '\033[1;96m', # Bright Cyan text
     'background-color': '\033[48;5;235m', # Gray Background
-    'RESET': '\033[0m'  # Reset to default colors
+    'RESET': '\033[0m',  # Reset to default colors
+    'enable-memory': 'false'
 }
 
 pricing = {'gpt-4o': {'input': 0.0050, 'output': 0.0150}, # cost is per 1K tokens
