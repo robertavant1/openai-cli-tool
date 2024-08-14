@@ -6,7 +6,7 @@ setup(
     description='A CLI tool for interacting with OpenAI APIs and formatting responses.',
     author='Robert Avant',
     author_email='robertavant2003@gmail.com',
-    url='',  
+    url='https://github.com/robertavant1/openai-cli-tool.git',  
     packages=find_packages(),
     install_requires=[
         'click',
