@@ -34,7 +34,7 @@ When you install the package, the first time it is run it in any new directory i
 These colors are based upon ANSI color codes. In order to change them, you can visit this link (https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124) and paste the codes into their desired positions.
 
 ## Lexer
-If you want to display code formatted in a language other than Python, you can change the 'lexer' variable to the name of the language in which you wish the code to be displayed in (i.e lexer : 'java' would out code formatted in Java). To see a full list of available lexers, visit (https://pygments.org/docs/lexers/).
+If you want to display code formatted in a language other than Python, you can change the *lexer* variable to the name of the language in which you wish the code to be displayed in (i.e lexer : 'java' would out code formatted in Java). To see a full list of available lexers, visit (https://pygments.org/docs/lexers/).
 
 ## enable-memory
 This variable is defaulted to 'false; in order to limit token usage and cost. However, if you would like for the tool to remember your conversation, you can change this variable to 'true'. This will append your previous conversation to your next prompt so that the model will remember it's past responses. To turn it off, return the variable to 'false', and the conversation history (conversation.txt) will be deleted.
