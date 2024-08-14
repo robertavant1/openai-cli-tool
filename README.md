@@ -15,12 +15,12 @@ You can use the tool by typing 'bugBuddy.py in your terminal, followed by your p
 ## Order of commands
 Due to the way that the click library parses arguments, the order in which you enter your commands will affect how the AI recieves your prompt. In general it is reccomended to structure your commands in the following way:
 
-'bugBuddy.py *your prompt here* --file *File Path* --format *text or code*.
+'bugBuddy.py *<your prompt here>* --file *<File Path>* --format *<text or code>*.
 
 Note that --file and --format are optional arguments, and are not neccessary for the tool to run. 
 
 ## --file
-If you want to have the tool read a file, you can type your prompt, followed by --file *INSERT FILE PATH HERE*. 
+If you want to have the tool read a file, you can type your prompt, followed by --file *<INSERT FILE PATH HERE>*. 
 
 ## --format
 The default format that the tool displays is text. This is plain text, colored and displayed on a colored background. However, you can also print out a code block by adding --format code to the end of your prompt. This will tokenize the response and display it as it would be written in an IDE
