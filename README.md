@@ -6,6 +6,9 @@ Script for interacting with advanced ChatGPT models at a fraction of the cost (f
 ## Get your API Key
 In order for this tool to function, you must get an API key from [platform.openai.com](https://platform.openai.com). You can login, go to your account and select *View API Keys*. Then select *Create new secret key*. You can then copy and paste this key into the config.yaml file (elaborated upon below).
 
+## Installation
+In order to install the tool, you can type 'pip install git+https://github.com/robertavant/openai-cli-tool
+
 # Usage
 You can use the tool by typing 'bugBuddy.py in your terminal, followed by your prompt. Read below for more explanation of commands
 
