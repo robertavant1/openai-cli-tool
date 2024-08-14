@@ -1,7 +1,7 @@
 # bugBuddy ChatGPT CLI Tool
 
 ## Overview
-Script for interacting with advanced ChatGPT models at a fraction of the cost (for the average user)through OpenAI's API. Designed to assist with debugging, additional code generation, and explanation of code
+Script for interacting with advanced ChatGPT models at a fraction of the cost (for the average user) through OpenAI's API. Designed to assist with debugging, additional code generation, and explanation of code
 
 ## Get your API Key
 In order for this tool to function, you must get an API key from [platform.openai.com](https://platform.openai.com). You can login, go to your account and select *View API Keys*. Then select *Create new secret key*. You can then copy and paste this key into the config.yaml file (elaborated upon below).
