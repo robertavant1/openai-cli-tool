@@ -13,11 +13,11 @@ CONFIG_FILE = os.path.join('.', 'config.yaml')
 # default configuration, can edit these settings in .yaml file
 DEFAULT_SETTINGS = {
     "api-key": "<INSERT YOUR  OPENAI API KEY HERE>",
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-4o",
     # text color settings
     'text-color': '\033[1;96m', # Bright Cyan text
     'background-color': '\033[48;5;235m', # Gray Background
-    'RESET': '\033[0m',  # Reset to default colors
+    'reset': '\033[0m',  # Reset to default colors
     'enable-memory': 'false'
 }
 
