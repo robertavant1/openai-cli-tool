@@ -28,6 +28,8 @@ The default format that the tool displays is text. This is plain text, colored a
 # config.yaml File
 This file allows you to adjust the default settings for the tool, including text and background colors, models, as well as the lexer to properly display code blocks for different languages. It also contains a place to input your API key, which is required for the tool to function. 
 
+When you install the package, the first time it is run it in any new directory it will throw an error and say that your API key is invalid. This is normal. The config.yaml should automatically generate within your working directory, and you can go in and insert it in to its proper space.
+
 ## Text and Background Colors
 These colors are based upon ANSI color codes. In order to change them, you can visit this link (https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124) and paste the codes into their desired positions.
 
