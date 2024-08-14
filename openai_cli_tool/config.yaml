@@ -1,0 +1,23 @@
+--- 
+# This file contains the default settings for the program. 
+# The values for these variables may be changed to adjust the output of the program
+
+# settings for API Access
+api-key: "<ENTER YOUR API KEY HERE>"
+model: "gpt-4o" # default engine
+
+# ANSI codes for text color settings
+text-color: '\033[1;96m' # Bright Cyan text
+background-color: '\033[48;5;235m' # Gray Background
+reset: '\033[0m'  # Reset to default colors
+
+# code block lexer configuration settings (default is Python, see Pygment site for other language lexers)
+# to change the lexer, simply set this var equal to the language name (not case-sensitive)
+lexer: 'Python'
+
+# When set to true, all responses from the API will be recorded to conversation.txt
+# * NOTE: enabling this feature will increase token usage as the conversation gets longer
+enable-memory: 'false' 
+
+
+
